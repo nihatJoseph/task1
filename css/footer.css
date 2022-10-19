@@ -1,0 +1,51 @@
+.footer-title{
+    display: flex;
+    margin-left: 5rem;
+    justify-content: start;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.left-vektor{
+    display: flex;
+    width: 16px;
+    height: 30px;
+    align-items: center;
+    background-image: url(../icons/vector-left.svg);
+    background-size: contain;
+}
+
+.right-vektor{
+    width: 16px;
+    height: 30px;
+    background-image: url(../icons/vector-right.svg);
+    background-size: contain;
+    align-items: center;
+}
+
+.footer-weapons-list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-weapon{
+    display: flex;
+    position: relative;
+    width: 272px;
+    height: 156px;
+    margin: 10px;
+}
+
+.footer-weapon-selected{
+    background: #0D511C;
+}

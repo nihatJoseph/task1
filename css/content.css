@@ -1,0 +1,164 @@
+#content{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 99.5%;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+.craft-categories{
+    flex: 1;
+    flex-direction: column;
+    padding-left: 5rem;
+    margin-bottom: 1rem;
+}
+
+.craft-categories div:hover{
+    border: 2px solid #80C4FF;
+    filter: drop-shadow(0px 0px 35px rgba(128, 196, 255, 0.25));
+    border-radius: 8px;
+}
+
+.cap{
+    display: flex;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card{
+    display: flex;
+    width: 272px;
+    height: 161px;
+    background-color: rgba(30, 42, 60, 0.47);
+    box-shadow: 0px 24px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.weapons{
+    margin-bottom: 1rem;
+    background-image: url(../images/weapons.svg);
+    background-color: rgba(30, 42, 60, 0.47);
+    box-shadow: 0px 24px 35px rgba(0, 0, 0, 0.25);
+}
+
+.ammos{
+    margin-bottom: 1rem;
+    background-image: url(../images/ammos.svg);
+    background-color: rgba(30, 42, 60, 0.47);
+    box-shadow: 0px 24px 35px rgba(0, 0, 0, 0.25);
+}
+
+.tools{
+    background-image: url(../images/tools.svg);
+    background-color: rgba(30, 42, 60, 0.47);
+    box-shadow: 0px 24px 35px rgba(0, 0, 0, 0.25);
+}
+
+.weapon-blueprints{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    right: 50px;
+}
+
+.weapons-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 856px;
+    height: 523px;
+    background: rgba(30, 42, 60, 0.19);
+    box-shadow: 0px 24px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;    
+}
+
+.weapons-list li{
+    display: flex;
+    width: 218px;
+    height: 157px;
+    margin: 1rem;
+    background-image: url(../images/content-weapon-bg.svg);
+    border-radius: 8px;
+}
+
+.weapons-list li:hover{
+    position: relative;
+    background-image: url(../images/content-bg-hover.svg);
+}
+
+.weapon-image{
+    position: relative;
+    display: flex;
+    bottom: 40px;
+    right: 30px;
+    background-image: url(../images/ak-47.svg);
+}
+
+.weapons-list p{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    display: flex;
+    width: 100px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.craft-details{
+    flex: 1;
+}
+
+.craft-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 374px;
+    height: 421px;
+    background: rgba(30, 42, 60, 0.19);
+    box-shadow: 0px 24px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.craft-items p{
+    text-align: center;
+    width: 147px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.craft-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 374px;
+    height: 83px;
+    background: #001B44;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.craft-button:hover{
+    position: block;
+    background: #5498FF;
+}
+
+.craft-button img{
+    position: relative;
+    right: 2rem;
+}
+
+.craft-button p{
+    position: relative;
+    right: 5rem;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.15);
+}
