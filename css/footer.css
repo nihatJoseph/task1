@@ -44,6 +44,25 @@
     width: 272px;
     height: 156px;
     margin: 10px;
+
+  
+}
+
+.footer-weapon-bg {
+    background-image: url('../images/blue-bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: brightness(30%);
+   
+}
+
+.footer-weapon-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2
 }
 
 .footer-weapon-selected{

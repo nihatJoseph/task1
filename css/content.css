@@ -87,6 +87,7 @@
     margin: 1rem;
     background-image: url(../images/content-weapon-bg.svg);
     border-radius: 8px;
+    will-change: contents;
 }
 
 .weapons-list li:hover{
